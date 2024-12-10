@@ -1,0 +1,542 @@
+/*mobile version*/
+@media screen and (max-width: 1440px) and (min-width: 500px) {
+    header {
+    position: fixed;
+    top: 0px;
+  }
+  #header {
+    background-color: #CF3A3A;
+    width: 500px;
+    height: 32px;
+  position: fixed;
+  display: flex;
+  }
+  #header-img {
+    height: 25px;
+  margin: 3px;
+  }
+  body {
+    width: 500px;
+    background-color: #8D1111;
+  margin: 0;
+  padding: 0;
+  }
+  #body-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  #sab-with-perfume {
+    width: 185px;
+    height: 234px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  }
+  .nav-link {
+    font-family: 'Cherry Swash';font-size: 14px;
+    display: flexbox;
+  float: right;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 6px;
+  margin-left: 20px;
+  }
+  #cherry-baby-link {
+    font-family: 'Rouge Script';font-size: 22px;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+  #nav-bar {
+    display: flex;
+  float: right;
+  position: fixed;
+  margin-left: 30px;
+  }
+  #shop-link {
+    margin-left: 75px;
+  }
+  #cherry-title {
+  display: flex;
+  float: right;
+  margin-left: 40px;
+  margin-top: 20px;
+  }
+  .title {
+  font-family: 'Rouge Script';font-size: 32px;
+  color: #FFFFFF;
+  text-align: center;
+  }
+  #cherry-baby-perfume {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32px;
+  }
+  #sub-title {
+  font-family: 'Cherry Swash';font-size: 15px;
+  color: #FFFFFF;
+  margin-left: 245px;
+  margin-top: -197px;
+  float: right;
+  }
+  .div-line {
+    border-top: 2px solid #CF3A3A;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    width: 460px;
+  }
+  #first-div-line {
+    width: 250px;
+  margin-left: 233px;
+  margin-right: 22px;
+  margin-top: -167px;
+  float: right;
+  }
+  #desc {
+    font-family: 'Cherry Swash';font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 225px;
+  margin-right: 20px;
+  margin-top: -155px;
+  text-align: center;
+  }
+  #pics {
+    width: 500px;
+  }
+  #shop {
+    margin-top: -15px;
+  }
+  .products {
+    width: 139px;
+    height: 206px;
+    background-color: #F2BABA;
+    border-radius: 15px;
+    border: 2px solid #CF3A3A;
+  }
+  #shop-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -10px;
+    margin-bottom: 25px;
+  }
+  .shop-pics {
+    width: 125px;
+    height: 110px;
+    margin: 7px;
+    border-radius: 15px;
+  }
+  .shop-titles {
+    font-family: 'Cherry Swash';font-size: 17px;
+  color: #8D1111;
+  text-align: center;
+  margin-top: -3px;
+  }
+  .prices {
+    font-family: 'Cherry Swash';font-size: 14px;
+  color: #8D1111;
+  text-align: center;
+  margin-top: -13px;
+  margin-bottom: 0;
+  }
+  .button {
+    font-family: 'Cherry Swash';font-size: 14px;
+  color: #FFFFFF;
+  background-color: #CF3A3A;
+  border: none;
+  border-radius: 50px;
+  width: 105px;
+  height: 24px;
+  text-align: center;
+  margin-right: 17px;
+  margin-left: 17px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  }
+  #scent-title {
+    float: left;
+  margin-left: 25px;
+  margin-top: 7px;
+  font-size: 36px;
+  margin-bottom: 0;
+  }
+  #scent-icons {
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: -5px;
+    margin-bottom: 0;
+  }
+  #scent-notes-list-1, #scent-notes-list-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+  }
+  #scent-notes-list-2 {
+    margin-top: -10px;
+    margin-bottom: 0;
+  }
+  .scent-note {
+    font-family: 'Cherry Swash';font-size: 16px;
+  color: #FFFFFF;
+  }
+  #teaser-video {
+    margin-top: -15px;
+  }
+  #video {
+    border-radius: 10px;
+    border: 2px solid #F2BABA;
+  }
+  #video-div {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    margin-bottom: 25px;
+  }
+  #form {
+    width: 330px;
+    height: 183px;
+    background-color: #F2BABA;
+    border-radius: 15px;
+    border: 2px solid #CF3A3A;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  #newsletter-div, #input-div, #button-div {
+    display: flex;
+    justify-content: center;
+  }
+  #form-title {
+    font-size: 36px;
+  color: #8D1111;
+  margin-top: 15px;
+  }
+  #form-desc {
+    font-family: 'Cherry Swash';font-size: 14px;
+  color: #8D1111;
+  display: flex;
+    justify-content: center;
+    margin-top: -27px;
+  }
+  #email {
+    background-color: #F6F6F6;
+    border-radius: 10px;
+  border: 2px solid #CF3A3A;
+  width: 258px;
+  height: 25px;
+  padding-top: 2px;
+  }
+  ::placeholder {
+    font-family: 'Cherry Swash';font-size: 15px;
+  color: #F2BABA;
+  padding-left: 5px;
+  }
+  #submit {
+  font-family: 'Cherry Swash';font-size: 16px;
+  color: #F6F6F6;
+  border-radius: 50px;
+  border: none;
+  background-color: #CF3A3A;
+  width: 118px;
+  height: 26px;
+  line-height: 10px;
+  margin-top: 15px;
+  }
+  #footer {
+    width: 500px;
+    height: 36px;
+    background-color: #F2BABA;
+    display: flex;
+    align-items: center;
+  }
+  #website, #copyright {
+    font-family: 'Cherry Swash';font-size: 16px;
+  color: #8D1111;
+  }
+  #website {
+    text-decoration: none;
+  float: left;
+  margin-left: 10px;
+  }
+  #copyright {
+    float: right;
+    margin-left: 80px;
+  }
+  }
+  
+  
+  /*desktop version*/
+  @media screen and (min-width: 1440px) {
+    header {
+    position: fixed;
+    top: 0px;
+  }
+  #header {
+    background-color: #CF3A3A;
+    width: 1440px;
+    height: 70px;
+  position: fixed;
+  display: flex;
+  }
+  #header-img {
+    height: 50px;
+  margin: 10px;
+  }
+  body {
+    width: 1440px;
+    background-color: #8D1111;
+  margin: 0;
+  padding: 0;
+  }
+  #body-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  #sab-with-perfume {
+    width: 545px;
+    height: 690px;
+  border-radius: 25px;
+  margin-top: 100px;
+  margin-left: 60px;
+  }
+  .nav-link {
+    font-family: 'Cherry Swash';font-size: 35px;
+    display: flexbox;
+  float: right;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 50px;
+  }
+  #cherry-baby-link {
+    font-family: 'Rouge Script';font-size: 45px;
+    margin-top: 7px;
+    margin-left: 3px;
+  }
+  #nav-bar {
+    display: flex;
+  float: right;
+    position: fixed;
+    margin-left: 70px;
+  }
+  #shop-link {
+    margin-left: 450px;
+  }
+  #cherry-title {
+  display: flex;
+  float: right;
+  margin-left: 100px;
+  margin-top: 100px;
+  }
+  .title {
+  font-family: 'Rouge Script';font-size: 96px;
+  color: #FFFFFF;
+  text-align: center;
+  }
+  #cherry-baby-perfume {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32px;
+  }
+  #sub-title {
+  font-family: 'Cherry Swash';font-size: 40px;
+  color: #FFFFFF;
+  margin-left: 740px;
+  margin-top: -565px;
+  float: right;
+  }
+  .div-line {
+    border-top: 4px solid #CF3A3A;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    width: 1320px;
+  }
+  #first-div-line {
+    width: 715px;
+  margin-left: 665px;
+  margin-right: 22px;
+  margin-top: -483px;
+  float: right;
+  }
+  #desc {
+    font-family: 'Cherry Swash';font-size: 40px;
+  color: #FFFFFF;
+  margin-left: 660px;
+  margin-right: 57px;
+  margin-top: -450px;
+  text-align: center;
+  }
+  #pics {
+    width: 1440px;
+    margin-bottom: 40px;
+  }
+  #shop {
+    margin-top: -35px;
+  }
+  .products {
+    width: 400px;
+    height: 585px;
+    background-color: #F2BABA;
+    border-radius: 25px;
+    border: 4px solid #CF3A3A;
+  }
+  #shop-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -30px;
+    margin-bottom: 80px;
+  }
+  .shop-pics {
+    width: 370px;
+    height: 317px;
+    margin: 15px;
+    border-radius: 25px;
+  }
+  .shop-titles {
+    font-family: 'Cherry Swash';font-size: 48px;
+  color: #8D1111;
+  text-align: center;
+  margin-top: 0;
+  }
+  .prices {
+    font-family: 'Cherry Swash';font-size: 40px;
+  color: #8D1111;
+  text-align: center;
+  margin-top: -35px;
+  margin-bottom: 0;
+  }
+  .button {
+    font-family: 'Cherry Swash';font-size: 48px;
+  color: #FFFFFF;
+  background-color: #CF3A3A;
+  border: none;
+  border-radius: 50px;
+  width: 332px;
+  height: 67px;
+  text-align: center;
+  margin-right: 34px;
+  margin-left: 34px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  }
+  #scent-title {
+    float: left;
+  margin-left: 80px;
+  margin-top: 55px;
+  font-size: 96px;
+  margin-bottom: 0;
+  }
+  #scent-icons {
+    float: right;
+    width: 880px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  #scent-notes-list-1, #scent-notes-list-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1440px;
+  }
+  #scent-notes-list-2 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+  .scent-note {
+    font-family: 'Cherry Swash';font-size: 48px;
+  color: #FFFFFF;
+  }
+  #teaser-video {
+    margin-top: -35px;
+  }
+  #video {
+    border-radius: 25px;
+    border: 4px solid #F2BABA;
+    width: 1100px;
+    height: 618px;
+  }
+  #video-div {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    margin-bottom: 75px;
+  }
+  #form {
+    width: 1040px;
+    height: 575px;
+    background-color: #F2BABA;
+    border-radius: 25px;
+    border: 4px solid #CF3A3A;
+    margin-top: 75px;
+    margin-bottom: 80px;
+  }
+  #newsletter-div, #input-div, #button-div {
+    display: flex;
+    justify-content: center;
+  }
+  #form-title {
+    font-size: 111px;
+  color: #8D1111;
+  margin-top: 40px;
+  }
+  #form-desc {
+    font-family: 'Cherry Swash';font-size: 42px;
+  color: #8D1111;
+  display: flex;
+    justify-content: center;
+    margin-top: -75px;
+    margin-bottom: 50px;
+  }
+  #email {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+  border: 4px solid #CF3A3A;
+  width: 810px;
+  height: 72px;
+  padding-top: 13px;
+  }
+  ::placeholder {
+    font-family: 'Cherry Swash';font-size: 40px;
+  color: #F2BABA;
+  padding-left: 20px;
+  }
+  #submit {
+  font-family: 'Cherry Swash';font-size: 48px;
+  color: #F6F6F6;
+  border-radius: 50px;
+  border: none;
+  background-color: #CF3A3A;
+  width: 370px;
+  height: 80px;
+  line-height: 10px;
+  margin-top: 45px;
+  }
+  #footer {
+    width: 1440px;
+    height: 90px;
+    background-color: #F2BABA;
+    display: flex;
+    align-items: center;
+  }
+  #website, #copyright {
+    font-family: 'Cherry Swash';font-size: 40px;
+  color: #8D1111;
+  }
+  #website {
+    text-decoration: none;
+  float: left;
+  margin-left: 20px;
+  }
+  #copyright {
+    float: right;
+    margin-left: 390px;
+  }
+  }
